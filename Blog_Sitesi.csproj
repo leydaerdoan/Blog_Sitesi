@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-Blog_Sitesi-4EECCAFB-582A-46CE-9D87-8055014C5784</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.27" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.27" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.27" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.27" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.27" />
+  </ItemGroup>
+
+</Project>
